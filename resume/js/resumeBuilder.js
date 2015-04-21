@@ -17,7 +17,7 @@ var bio = {
 	 	"employer":"Nuerocom.SA",
 	 	"date": "2012 - Current",
 	 	"location":"1 Vas. Pyrrou & M. Assias ,Chalandri 152 33, Greece",
-	 	"description":"programming in C !, Java Script, Web Development"
+	 	"description":"Programming in C !, Java Script, Website Development"
  		 }
  		 ,
  		 {
