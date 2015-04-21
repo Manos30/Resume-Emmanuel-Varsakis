@@ -1,0 +1,50 @@
+JavaScript notes!
+JQuary-methods
+.prepend(adds the code before the html)
+.append(adds the code after the html)
+string.replace(old, new)
+
+String Methods!
+string[].toUppercase()
+string.slice(number of character)
+
+Array[]
+array.pop();(returns us the last value of the array)
+array.push();
+var myArray=[];(to initialize an array)
+
+//Useful code!
+education.name="American College of Greece ";
+education.years="2006-2012";
+education.city="Athens";
+
+//Variables 
+var formattedName = HTMLheaderName.replace("%data%", bio.name);
+var formattedRole = HTMLheaderRole.replace("%data%", bio.role );
+var formattedWelcome = HTMLwelcomeMsg.replace("%data%", bio.welcome);
+var formattedAddress = HTMLlocation.replace("%data%", bio.contact.address); 
+var formattedEmail = HTMLemail.replace("%data%", bio.contact.Email);
+var formattedMobile = HTMLmobile.replace("%data%", bio.contact.mobile);
+var formattedSkills = HTMLskills.replace("%data%", bio.skills);
+var formattedPic = HTMLbioPic.replace("%data%", bio.pic);
+var name=bio.name;
+var role=bio.role;
+var skills=bio.skills;
+
+//name and role
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);
+//contacts 
+$("#topContacts").append(formattedAddress);
+$("#topContacts").append(formattedEmail);
+$("#topContacts").append(formattedMobile);
+// welcome message
+$("#header").append(formattedWelcome);
+//skill list
+$("#header").append(HTMLskillsStart);
+$("#skills").append(formattedSkills);
+//Picture
+$("#header").prepend(formattedPic);
+//work exp and education
+$("#main").append(work["position"]);
+$("#main").append(education["schools"]);
